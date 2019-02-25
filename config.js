@@ -3,23 +3,23 @@ module.exports = {
 	title: 'Zing Gallery',
 	avatar: './img/avatar.png',
 	wording: {
-		noAccess: '±§Ç¸£¬ÄãÃ»ÓĞÈ¨ÏŞ·ÃÎÊ'
+		noAccess: 'æŠ±æ­‰ï¼Œä½ æ²¡æœ‰æƒé™è®¿é—®'
 	},
 	albums: {
-		"Çàº£ºş": {
-			thumbnail: "´òÂí¶ø¹ı.jpg",
+		"é’æµ·æ¹–": {
+			thumbnail: "æ‰“é©¬è€Œè¿‡.jpg",
 		  sort: 1
 		}, 
-		"½­ÄÏĞ¡Õò": {
-		  description : "Ã»ÓĞÊ²Ã´ÄÜ¹»×èµ²",
-			thumbnail: "Ñà¸èĞĞ.jpg",
-		  name: "ÄÏä±"
+		"æ±Ÿå—å°é•‡": {
+		  description : "æ²¡æœ‰ä»€ä¹ˆèƒ½å¤Ÿé˜»æŒ¡",
+			thumbnail: "ç‡•æ­Œè¡Œ.jpg",
+		  name: "å—æµ”"
 		},
-		"Ë½ÃÜ": {
-			description: "ÕâÊÇÒ»¸öĞèÒªÃÜÂëµÄÏà²á",
-		  name: "Ë½ÃÜ",
+		"ç§å¯†": {
+			description: "è¿™æ˜¯ä¸€ä¸ªéœ€è¦å¯†ç çš„ç›¸å†Œ",
+		  name: "ç§å¯†",
 		  password: "233",
-			passwordTips: "ÃÜÂëÊÇ233"
+			passwordTips: "å¯†ç æ˜¯233"
 		}
 	}
 }

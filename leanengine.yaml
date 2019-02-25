@@ -1,2 +1,3 @@
 systemDependencies:
   # - libpng-dev
+  - fonts-wqy
