@@ -3,14 +3,12 @@
   "name": "zing-gallery",
   "description": "NodeJS Photo Gallery using directory structure & exif info to output a gallery",
   "version": "1.0.0",
+  "private": true,
   "license": "MIT",
   "repository": {
     "url": ""
   },
   "main": "lib/gallery.js",
-  "engines": {
-    "node": ">=0.6.2"
-  },
   "dependencies": {
     "css-loader": "^0.25.0",
     "ejs": "*",
@@ -26,14 +24,21 @@
     "imagemin-jpegtran": "^5.0.2",
     "imagemin-pngquant": "^5.0.1",
     "images": "^3.0.0",
-    "in-viewport": "^3.5.0",
     "memory-cache": "*",
     "style-loader": "^0.13.1",
     "underscore": "*",
     "url-loader": "^0.5.7",
     "watch": "^1.0.1",
     "webp-bin": "^0.1.4",
-    "webpack": "^1.13.2"
+    "webpack": "^1.13.2",
+    "leanengine": "^3.0.0"
+  },
+  "devDependencies": {
+    "file-loader": "^1.1.6",
+    "in-view": "^0.6.1"
+  },
+  "engines": {
+    "node": "8.x"
   },
   "scripts": {
     "start": "node app.js",
