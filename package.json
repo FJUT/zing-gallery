@@ -9,7 +9,7 @@
   },
   "main": "lib/gallery.js",
   "engines": {
-    "node": ">=0.6.2"
+    "node": "8.x"
   },
   "dependencies": {
     "css-loader": "^0.25.0",
@@ -26,13 +26,16 @@
     "imagemin-jpegtran": "^5.0.2",
     "imagemin-pngquant": "^5.0.1",
     "images": "^3.0.0",
-    "in-viewport": "^3.5.0",
+    "in-view": "^0.6.1",
+    "file-loader": "^1.1.6",
     "memory-cache": "*",
     "style-loader": "^0.13.1",
     "underscore": "*",
     "url-loader": "^0.5.7",
     "watch": "^1.0.1",
     "webp-bin": "^0.1.4",
+    "leanengine": "^3.3.2",
+    "leancloud-storage": "^3.0.2",
     "webpack": "^1.13.2"
   },
   "scripts": {
