@@ -1,5 +1,6 @@
 .git/
 .DS_Store
+.package-lock.json
 .avoscloud/
 .leancloud/
 node_modules/
