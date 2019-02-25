@@ -7,12 +7,12 @@ module.exports = {
 	},
 	albums: {
 		"青海湖": {
-			thumbnail: "打马而过.jpg",
+			thumbnail: "比翼双飞.jpg",
 		  sort: 1
 		}, 
 		"江南小镇": {
 		  description : "没有什么能够阻挡",
-			thumbnail: "燕歌行.jpg",
+			thumbnail: "百间楼.jpg",
 		  name: "南浔"
 		},
 		"私密": {
